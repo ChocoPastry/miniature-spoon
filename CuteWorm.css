@@ -1,0 +1,219 @@
+.navbar {
+    font-size: 20px;
+}
+
+.navbar-brand {
+    font-size: 25px;
+}
+
+#navbarSupportedContent {
+    font-weight: 400;
+}
+
+.nav-item:hover {
+    font-weight: 600;
+    text-shadow: 10px black;
+}
+
+.HBack {
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.span1,
+.span2 {
+    font-size: 60px;
+    font-family: "Roboto Slab", serif;
+}
+
+.span1 {
+    color: #DB34F3;
+}
+
+.btn {
+    border-radius: 20px;
+}
+
+p>i {
+    font-family: "Roboto Slab", serif;
+}
+
+.container {
+    width: 90%;
+    margin: 50px auto;
+}
+
+.heading {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+.card {
+    width: 20%;
+    background: #fff;
+    border: 1px solid #ccc;
+    margin-bottom: 50px;
+    transition: 0.3s;
+    border-radius: 20px;
+}
+
+.card-body {
+    padding: 30px 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.card-body .btn {
+    display: block;
+    color: #fff;
+    text-align: center;
+    background: linear-gradient(to right, #ff41ff, #ff4b2b);
+    text-decoration: none;
+    margin-top: 30px;
+    padding: 10px 5px;
+    transition: 0.3s;
+}
+
+.card-body .btn:hover {
+    transform: scale(1.1);
+}
+
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.50);
+}
+
+
+.card-header {
+    height: 30px;
+    text-align: center;
+    padding: 2px 2px;
+    background: linear-gradient(to right, #ff41ff, #ff4b2b);
+    color: #fff;
+}
+
+.imgsec {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px;
+    text-align: center;
+    flex-flow: wrap;
+    background-color: #555555;
+    color: white;
+}
+
+
+.color {
+    width: fit-content;
+    font-family: "Roboto Slab", serif;
+    color: #DB34F3;
+}
+
+.bst1 {
+    width: 800px;
+    height: 500px;
+    justify-self: flex-end;
+    font-size: 60px;
+
+
+}
+
+.image1 {
+    width: 500px;
+    height: 500px;
+    background: url(house2.gif);
+}
+
+.main {
+    height: 680px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-flow: wrap;
+    background-color: lightgrey;
+}
+
+.para {
+    font-size: 1.1rem;
+}
+
+.house {
+    width: 500;
+    height: 450;
+}
+
+/* Responsive media queries */
+
+@media screen and (max-width: 1000px) {
+    .card {
+        width: 40%;
+    }
+
+    .bst1 {
+        width: 40%;
+    }
+
+
+    .house {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .container {
+        width: 100%;
+    }
+
+    .heading {
+        padding: 20px;
+        font-size: 30px;
+    }
+
+    .card {
+        width: 80%;
+    }
+
+    .imgsec {
+        width: 100%;
+    }
+
+    .bst1 {
+        width: 80%;
+    }
+
+    .image1 {
+        width: 80%;
+    }
+
+    .main {
+        width: 100%;
+    }
+
+    .house {
+        width: 80%;
+    }
+
+    .sign {
+        width: 80%;
+    }
+}
+
+.image {
+    width: 20%;
+}
